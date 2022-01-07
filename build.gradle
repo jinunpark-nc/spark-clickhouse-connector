@@ -26,6 +26,7 @@ plugins {
     id "com.github.johnrengelman.shadow" version "7.0.0" apply false
 }
 
+/*
 String mavenCentralMirror = project.hasProperty("mavenCentralMirror")
         ? "$mavenCentralMirror"
         : "https://mirrors.cloud.tencent.com/nexus/repository/maven-public/"
@@ -33,6 +34,7 @@ String mavenCentralMirror = project.hasProperty("mavenCentralMirror")
 repositories {
     maven { url = mavenCentralMirror }
 }
+*/
 
 rat {
     verbose.set(true)
